@@ -1,0 +1,166 @@
+/**
+ * $FONT-FACE
+ */
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic);
+@include establish-baseline($base-font-size);
+
+/**
+ * $BASE-TYPOGRAPHY
+ */
+body {
+  font-family: $source-sans;
+  color: $body-copy-color;
+  @include enable-ligatures;
+}
+
+/**
+ * $LINKS
+ */
+a {
+  @include link-colors($link-color, #000, lighten($link-color, 20%), $link-color, #000);
+  text-decoration: none;
+}
+
+p a,
+span a {
+  // Add the svelt underlines. Note that because this effect uses a background
+  // gradient and will apply to many inline links across the site you might want
+  // to remove this. There is also a corresponding nounderline() mixin to remove
+  // the underline if needed from elements that shouldn't have it.
+  @include underline();
+}
+
+/**
+ * $HEADINGS
+ */
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta {
+  @include rhythm(0, 0, 0, 0.2);
+  color: darken($color-nevada, 15%);
+  font-family: $source-sans;
+
+  a,
+  a:visited {
+    color: inherit;
+    @include nounderline();
+  }
+  a:hover {
+    color: $color-teal-blue;
+  }
+}
+
+h1, .alpha {
+  $h1-font-size: 38px;
+  font-weight: 700;
+  @include font-size($h1-font-size);
+  @include adjust-leading-to(lines-for-font-size($h1-font-size), $h1-font-size);
+  @include leader(1, $h1-font-size);
+  @include trailer(1, $h1-font-size);
+}
+
+@include breakpoint($tab, true) {
+  h1, .alpha {
+    $h1-font-size: 48px;
+    @include font-size($h1-font-size);
+    @include adjust-leading-to(lines-for-font-size($h1-font-size), $h1-font-size);
+    @include leader(1, $h1-font-size);
+    @include trailer(1, $h1-font-size);
+  }
+}
+
+h2, .beta {
+  $h2-font-size: 34px;
+  font-weight: 700;
+  color: $color-nevada;
+  @include font-size($h2-font-size);
+  @include adjust-leading-to(lines-for-font-size($h2-font-size), $h2-font-size);
+  @include leader(1.5, $h2-font-size);
+  @include trailer(0.5, $h2-font-size);
+}
+h3, .gamma {
+  $h3-font-size: 21px;
+  @include font-size($h3-font-size);
+  @include adjust-leading-to(lines-for-font-size($h3-font-size), $h3-font-size);
+  @include leader(1, $h3-font-size);
+  @include trailer(0.5, $h3-font-size);
+}
+h4, .delta {
+  $h4-font-size: 18px;
+  @include font-size($h4-font-size);
+  @include adjust-leading-to(lines-for-font-size($h4-font-size), $h4-font-size);
+  @include leader(0.5, $h4-font-size);
+  @include trailer(0.5, $h4-font-size);
+}
+h5, .epsilon{
+  $h5-font-size: 16px;
+  @include font-size($h5-font-size);
+  @include adjust-leading-to(lines-for-font-size($h5-font-size), $h5-font-size);
+  @include leader(0.5, $h5-font-size);
+  @include trailer(0.5, $h5-font-size);
+  font-weight: 700;
+}
+h6, .zeta {
+  $h6-font-size: 16px;
+  color: $color-nevada;
+  @include font-size($h6-font-size);
+  @include adjust-leading-to(lines-for-font-size($h6-font-size), $h6-font-size);
+  @include leader(0.5, $h6-font-size);
+  @include trailer(0.5, $h6-font-size);
+}
+
+/**
+ * $PARAGRAPHS
+ */
+p,
+%p {
+  margin: 0;
+  @include rhythm(0, 0, 0, 1);
+}
+p + img {
+  float: left;
+  margin-right: $horz-spacing-unit;
+}
+
+/**
+ * $QUOTES
+ */
+blockquote {
+  @extend %p;
+  @include rhythm(0, 1, 1, 1);
+  padding: 0 1.5em;
+
+  @include rhythm-borders(1px);
+  @include apply-side-rhythm-border(left, 10px);
+  font-style: italic;
+  color: $color-teal-blue;
+
+  p {
+    margin: 0;
+  }
+}
+
+q {
+  font-style: italic;
+}
+
+/**
+ * $MARKS
+ */
+mark,
+.marker {
+  padding: 0.1em 0.5em;
+
+  background: $color-picton-blue;
+
+  color: #fff;
+  @include font-size(12px);
+  text-transform: capitalize;
+
+  @include border-radius(10px);
+}

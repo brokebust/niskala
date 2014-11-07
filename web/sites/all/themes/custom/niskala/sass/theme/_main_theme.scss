@@ -1,0 +1,75 @@
+
+body{
+  background: #333;
+  color:#FFF;
+}
+
+a{
+  color:red;
+}
+a:visited,
+p a:visited, 
+span a:visited{
+  color:#C00;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/*Main Menu*/
+
+#block-system-main-menu ul{
+  list-style:none;
+  
+}
+#block-system-main-menu ul li{
+  float:left;
+  background-image:none;
+  display:block;
+  padding:0;
+  margin:0 10px 0 0;
+}
+
+#block-system-main-menu ul li a,
+#block-system-main-menu ul li a:visited{
+  padding:8px;
+  color:#FFF;
+}
+#block-system-main-menu ul li a:hover{
+  text-decoration:none;
+}
+
+
+
+body {
+  background: #333 url('../images/patt2.jpg') repeat center;
+  color: #FFF;
+}
+
+.l-header {
+  background: #000 url('../images/patt2.jpg') repeat center;
+}
+
+.site-branding__logo{
+  
+}
+
+body .l-main {
+  padding:30px;
+  background:#222;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+body .l-footer-wrapper {
+  background: none;
+}
+
+.l-header .l-constrained{
+  background: #000 url('../images/header_001.jpg') no-repeat center;
+  height:400px;
+}
+
+.l-constrained{
+  max-width:980px;
+}

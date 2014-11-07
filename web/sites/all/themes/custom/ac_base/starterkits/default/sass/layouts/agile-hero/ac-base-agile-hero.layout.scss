@@ -1,0 +1,32 @@
+/*******************************************************************************
+ * ac-base-hero.layout.scss
+ *
+ * Additional, theme specific styles for the Hero layout.
+ ******************************************************************************/
+
+// Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+body {
+}
+
+/* Header */
+.l-header {
+  background-color: $color-mine-shaft;
+}
+
+/* Content Area */
+.l-highlighted-wrapper {
+  background: #fff;
+}
+
+/* Sidebars */
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  background-color: #fff;
+}
+
+/* Footer */
+.l-footer-wrapper {
+  background: #fff;
+}

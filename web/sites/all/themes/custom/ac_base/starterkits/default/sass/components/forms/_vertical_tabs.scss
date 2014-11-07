@@ -1,0 +1,19 @@
+.vertical-tabs {
+  ul.vertical-tabs-list {
+    li {
+      background-color: $box-background-color;
+      a {
+        &:active,
+        &:focus,
+        &:hover {
+          strong {
+            color: $body-copy-color;
+            text-decoration: none;
+          }
+        }
+        strong {
+        }
+      }
+    }
+  }
+}

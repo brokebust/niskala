@@ -1,0 +1,37 @@
+// Hide the toolbar or admin menu on small screens.
+@media all and (max-width: 800px) {
+  #toolbar, #admin-menu {
+    display: none;
+  }
+
+  html {
+    body.toolbar, body.admin-menu {
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
+  }
+}
+
+// Stop the environment indicator taking over the whole menu bar.
+#admin-menu {
+  #admin-menu-wrapper {
+    // Ensure consistency between front and back end font rendering. This was
+    // an issue particularly in Safari where font weight was jumping around
+    // on hover.
+    -webkit-font-smoothing: subpixel-antialiased;
+    #environment-indicator {
+      .environment-indicator-name {
+        border-radius: 0;
+      }
+      .item-list,
+      .environment-switcher-container {
+        display: none !important;
+      }
+    }
+  }
+
+  #admin-menu,
+  #admin-menu-wrapper {
+    background-color: #202020 !important;
+  }
+}

@@ -1,0 +1,10 @@
+/**
+ * $AUTOCOMPLETE
+ */
+html.js input.form-autocomplete {
+  background-image: url(../images/throbber-inactive.png);
+  background-position: 100% center;
+  &.throbbing {
+    background-image: url(../images/throbber-active.gif);
+  }
+}

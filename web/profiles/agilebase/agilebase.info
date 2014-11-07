@@ -1,0 +1,95 @@
+name = Agile Base
+description = A base installation profile for Agile Collective
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Admin
+dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
+dependencies[] = module_filter
+dependencies[] = fpa
+dependencies[] = simplify
+dependencies[] = admin_views
+dependencies[] = views_bulk_operations
+dependencies[] = coffee
+dependencies[] = navbar
+
+; Development
+dependencies[] = devel
+dependencies[] = backup_migrate
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = diff
+dependencies[] = environment_indicator
+dependencies[] = maillog
+dependencies[] = security_review
+dependencies[] = masquerade
+dependencies[] = jquery_update
+
+; Structure
+dependencies[] = ctools
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = context_omega
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = libraries
+dependencies[] = responsive_tables
+dependencies[] = field_group
+
+; HTML5 & theme related
+dependencies[] = html5_tools
+dependencies[] = elements
+dependencies[] = picture
+
+; All other
+dependencies[] = pathauto
+dependencies[] = webform
+dependencies[] = token
+dependencies[] = link
+dependencies[] = email
+dependencies[] = date
+dependencies[] = date_views
+dependencies[] = date_popup
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = metatag
+dependencies[] = xmlsitemap
+dependencies[] = ds
+dependencies[] = ds_ui
+dependencies[] = transliteration
+dependencies[] = menu_block
+dependencies[] = ckeditor
+dependencies[] = edit
+dependencies[] = linkit
+dependencies[] = honeypot
+dependencies[] = file_entity
+dependencies[] = ckeditor_media
+dependencies[] = better_formats
+
+
+; EOF
+
+
+; Information added by drush on 2014-07-03
+version = "master-dev"
+project = "agilebase"
+datestamp = "1404381848"
+

@@ -1,0 +1,1566 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic);
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000382}}
+.comment__content, .field--type-taxonomy-term-reference .field__items, .pager, .site-branding {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000348}}
+  .comment__content:before, .field--type-taxonomy-term-reference .field__items:before, .pager:before, .site-branding:before, .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000355}}
+  .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_box-sizing\.scss}line{font-family:\0000338}}
+.block--sharethis * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  *behavior: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_box-sizing\.scss}line{font-family:\0000340}}
+.block--sharethis * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  *behavior: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000381}}
+.comment__content, .field--type-taxonomy-term-reference .field__items, .pager, .site-branding {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .comment__content:before, .field--type-taxonomy-term-reference .field__items:before, .pager:before, .site-branding:before, .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
+    clear: both; }
+
+/**
+ * Collected colours.
+ *
+ * These are colours Agile Collective have gathered and might want to re-use
+ * in other projects. Usually they would not be referenced directly, instead
+ * they would be referenced in the colour based variables above.
+ *
+ * Your colours should be named using the 'Name that color' web service.
+ *
+ * @see: http://chir.ag/projects/name-that-color
+ */
+/**
+ * Site colours.
+ *
+ * The colours specific to this site are defined below. Avoid using any hex
+ * colours here, instead use a variable referencing a hex colour defined above.
+ * If your colour isn't defined yet, go to http://chir.ag/projects/name-that-color
+ * and enter your hex value to find your colour name and then add it to the
+ * appropriate colour section above.
+ */
+/**
+ * $Agile Button
+ */
+/**
+ * $ARROW
+ */
+/**
+ * Classy.scss
+ * A set of useful mixins & classes for Drupal
+ */
+/**
+ * $HLIST
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_hlist\.scss}line{font-family:\000034}}
+.block--system-user-menu .menu, .block--nav-bar .menu, .action-links, .breadcrumb {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .block--system-user-menu .menu:before, .block--nav-bar .menu:before, .action-links:before, .breadcrumb:before, .block--system-user-menu .menu:after, .block--nav-bar .menu:after, .action-links:after, .breadcrumb:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .block--system-user-menu .menu:after, .block--nav-bar .menu:after, .action-links:after, .breadcrumb:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+  .block--system-user-menu .menu li, .block--nav-bar .menu li, .action-links li, .breadcrumb li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left; }
+
+/**
+ * $ISLAND
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_island\.scss}line{font-family:\000035}}
+.comment__content {
+  display: block;
+  margin-bottom: 1.6em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_island\.scss}line{font-family:\0000311}}
+  .comment__content > :last-child, .comment__content > :last-child {
+    margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_island\.scss}line{font-family:\0000316}}
+.comment__content {
+  padding: 18px 1em; }
+
+/**
+ * $UNDERLINES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000334}}
+#coffee-form a {
+  background-image: none;
+  background-position: 0 0;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_forms\.scss}line{font-family:\000034}}
+select:focus,
+input:focus,
+textarea:focus {
+  -webkit-box-shadow: 0 0 4px 1px rgba(118, 165, 214, 0.3);
+  -moz-box-shadow: 0 0 4px 1px rgba(118, 165, 214, 0.3);
+  box-shadow: 0 0 4px 1px rgba(118, 165, 214, 0.3);
+  outline: 1px solid #76a5d6; }
+  @media screen and (-moz-images-in-menus: 0) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_forms\.scss}line{font-family:\000034}}
+    select:focus,
+    input:focus,
+    textarea:focus {
+      outline-offset: -8px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_forms\.scss}line{font-family:\0000315}}
+fieldset {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 9px 1em 18px 1em;
+  border-color: #dddddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_forms\.scss}line{font-family:\0000322}}
+legend {
+  font-size: 18px;
+  font-size: 1.2rem;
+  padding: 0 0.8em;
+  color: #6a7076; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top; }
+
+/**
+ * $TABLES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_tables\.scss}line{font-family:\000034}}
+table {
+  width: 100%;
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_tables\.scss}line{font-family:\000039}}
+th {
+  padding: 0.5em 1em;
+  background-color: #f7f7f7;
+  color: #222222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_tables\.scss}line{font-family:\0000315}}
+  th a,
+  th a.active {
+    color: #222222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_tables\.scss}line{font-family:\0000318}}
+    th a img,
+    th a.active img {
+      margin: 2px 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_tables\.scss}line{font-family:\0000323}}
+td {
+  padding: 0.5em 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
+tr.odd {
+  background: #e7e7e7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
+tr.even {
+  background: #f1f1f1; }
+
+/**
+ * $FONT-FACE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
+* html {
+  font-size: 93.75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
+html {
+  font-size: 15px;
+  line-height: 1.6em; }
+
+/**
+ * $BASE-TYPOGRAPHY
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: #222222;
+  -webkit-font-feature-settings: "liga","dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -moz-font-feature-settings: "liga","dlig";
+  -ms-font-feature-settings: "liga","dlig";
+  -o-font-feature-settings: "liga","dlig";
+  font-feature-settings: "liga","dlig"; }
+
+/**
+ * $LINKS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000321}}
+a {
+  color: #3b7fc4;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+  a:visited {
+    color: #3b7fc4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+  a:focus {
+    color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+  a:hover {
+    color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+  a:active {
+    color: #89b2dc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000327}}
+p a,
+span a {
+  background-image: linear-gradient(to bottom, transparent 75%, #333332 75%);
+  background-repeat: repeat-x;
+  text-decoration: none;
+  background-size: 2px 2px;
+  background-position: 0 1.1em;
+  color: #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000318}}
+  p a:visited,
+  span a:visited {
+    color: #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000321}}
+  p a:hover,
+  span a:hover {
+    color: black; }
+
+/**
+ * $HEADINGS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000343}}
+h1, .alpha,
+h2, .beta, .site-branding__name,
+h3, .gamma,
+h4, .delta, caption,
+h5, .epsilon,
+h6, .zeta {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.32em;
+  color: #464a4e;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000349}}
+  h1 a,
+  h1 a:visited, .alpha a,
+  .alpha a:visited,
+  h2 a,
+  h2 a:visited, .beta a, .site-branding__name a,
+  .beta a:visited,
+  .site-branding__name a:visited,
+  h3 a,
+  h3 a:visited, .gamma a,
+  .gamma a:visited,
+  h4 a,
+  h4 a:visited, .delta a, caption a,
+  .delta a:visited,
+  caption a:visited,
+  h5 a,
+  h5 a:visited, .epsilon a,
+  .epsilon a:visited,
+  h6 a,
+  h6 a:visited, .zeta a,
+  .zeta a:visited {
+    color: inherit;
+    background-image: none;
+    background-position: 0 0;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000353}}
+  h1 a:hover, .alpha a:hover,
+  h2 a:hover, .beta a:hover, .site-branding__name a:hover,
+  h3 a:hover, .gamma a:hover,
+  h4 a:hover, .delta a:hover, caption a:hover,
+  h5 a:hover, .epsilon a:hover,
+  h6 a:hover, .zeta a:hover {
+    color: #064771; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000358}}
+h1, .alpha {
+  font-weight: 700;
+  font-size: 38px;
+  font-size: 2.53333rem;
+  line-height: 1.26316em;
+  margin-top: 0.63158em;
+  margin-bottom: 0.63158em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000368}}
+h1, .alpha {
+  font-size: 48px;
+  font-size: 3.2rem;
+  line-height: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
+h2, .beta, .site-branding__name {
+  font-weight: 700;
+  color: #6a7076;
+  font-size: 34px;
+  font-size: 2.26667rem;
+  line-height: 1.41176em;
+  margin-top: 1.05882em;
+  margin-bottom: 0.35294em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000386}}
+h3, .gamma {
+  font-size: 21px;
+  font-size: 1.4rem;
+  line-height: 2.28571em;
+  margin-top: 1.14286em;
+  margin-bottom: 0.57143em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\0000393}}
+h4, .delta, caption {
+  font-size: 18px;
+  font-size: 1.2rem;
+  line-height: 1.33333em;
+  margin-top: 0.66667em;
+  margin-bottom: 0.66667em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003100}}
+h5, .epsilon {
+  font-size: 16px;
+  font-size: 1.06667rem;
+  line-height: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003108}}
+h6, .zeta {
+  color: #6a7076;
+  font-size: 16px;
+  font-size: 1.06667rem;
+  line-height: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em; }
+
+/**
+ * $PARAGRAPHS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003121}}
+p,
+blockquote {
+  margin: 0;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.6em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003125}}
+p + img {
+  float: left;
+  margin-right: 1em; }
+
+/**
+ * $QUOTES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003133}}
+blockquote {
+  margin-top: 0em;
+  padding-top: 1.6em;
+  padding-bottom: 1.6em;
+  margin-bottom: 1.6em;
+  padding: 0 1.5em;
+  border-style: solid;
+  border-width: 0.06667em;
+  padding: 1.53333em;
+  border-left-style: solid;
+  border-left-width: 0.66667em;
+  padding-left: 0.93333em;
+  font-style: italic;
+  color: #064771; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003143}}
+  blockquote p {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003148}}
+q {
+  font-style: italic; }
+
+/**
+ * $MARKS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/base\/_typography\.scss}line{font-family:\00003156}}
+mark,
+.marker {
+  padding: 0.1em 0.5em;
+  background: #52b1ea;
+  color: #fff;
+  font-size: 12px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px; }
+
+/**
+ * $SHARETHIS
+ *
+ * Fixes the sharethis block's layout be resetting to content-box model.
+ */
+/**
+ * $USER-MENU
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\000038}}
+.block--system-user-menu a {
+  padding: 0 0.6em;
+  border-right: 1px solid #3b7fc4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\0000312}}
+.block--system-user-menu li:first-child a {
+  padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\0000315}}
+.block--system-user-menu li:last-child a {
+  padding-right: 0;
+  border-right: 0; }
+
+/**
+ * $NAV-BAR
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\000039}}
+.block--nav-bar a {
+  display: block;
+  padding: 1.2em 1em;
+  font-size: 16px;
+  font-size: 1.06667rem;
+  text-transform: uppercase;
+  background-image: none;
+  background-position: 0 0;
+  text-decoration: none;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000319}}
+  .block--nav-bar a:hover, .block--nav-bar a:focus {
+    color: #064771; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000325}}
+.block--nav-bar a {
+  font-size: 18px;
+  font-size: 1.2rem;
+  border-left: 1px solid #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000329}}
+.block--nav-bar li:last-child a {
+  border-right: 1px solid #fff; }
+
+/**
+ * $COMMENT-WRAPPER
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment-wrapper\.scss}line{font-family:\000034}}
+.comment-wrapper {
+  padding: 18px 1em;
+  background-color: #d9e9ef; }
+
+/**
+ * $COMMENT
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\000034}}
+.comment__info {
+  margin-top: 18px;
+  margin-bottom: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\000038}}
+  .comment__info .username {
+    margin-bottom: 9px;
+    color: #52b1ea;
+    text-transform: uppercase;
+    background-image: none;
+    background-position: 0 0;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000315}}
+    .comment__info .username:hover {
+      text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000321}}
+.comment__content {
+  background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000327}}
+.comment__submitted {
+  display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000332}}
+.comment__info {
+  float: left;
+  width: 25%;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000338}}
+  .comment__info .user-picture {
+    width: 70%;
+    margin: 0 auto 9px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000342}}
+  .comment__info .username {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000347}}
+.comment__content {
+  float: right;
+  width: 70%;
+  margin-left: 5%;
+  position: relative;
+  background: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_arrow\.scss}line{font-family:\0000328}}
+  .comment__content:after, .comment__content:before {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_arrow\.scss}line{font-family:\0000350}}
+  .comment__content:after {
+    border-color: transparent;
+    border-right-color: white;
+    border-width: 20px;
+    top: 50%;
+    margin-left: -20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000354}}
+  .comment__content:after {
+    top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000359}}
+.comment__submitted {
+  display: block;
+  margin-bottom: 9px; }
+
+/**
+ * $FIELD-TAXONOMY-TERM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/fields\/_field-taxonomy-term\.scss}line{font-family:\000038}}
+.field--type-taxonomy-term-reference .field__item {
+  float: left;
+  margin-right: 0.5em; }
+
+/**
+ * $FIELD
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/fields\/_field\.scss}line{font-family:\000034}}
+.field {
+  margin-bottom: 1.6em; }
+
+/**
+ * $AUTOCOMPLETE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_autocomplete\.scss}line{font-family:\000034}}
+html.js input.form-autocomplete {
+  background-image: url(../images/throbber-inactive.png);
+  background-position: 100% center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_autocomplete\.scss}line{font-family:\000037}}
+  html.js input.form-autocomplete.throbbing {
+    background-image: url(../images/throbber-active.gif); }
+
+/**
+ * $COLLAPSIBLE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\000034}}
+html.js fieldset.collapsible {
+  padding: 0;
+  border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\000038}}
+  html.js fieldset.collapsible legend {
+    width: 100%;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000312}}
+  html.js fieldset.collapsible .fieldset-legend {
+    padding: 0;
+    background: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000316}}
+    html.js fieldset.collapsible .fieldset-legend .summary {
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000320}}
+  html.js fieldset.collapsible .fieldset-title {
+    display: block;
+    padding: 0.75em;
+    background-color: #f7f7f7;
+    color: #3b7fc4;
+    background-image: none;
+    background-position: 0 0;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000329}}
+    html.js fieldset.collapsible .fieldset-title:hover {
+      background-color: #d9e9ef;
+      color: #064771; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000334}}
+  html.js fieldset.collapsible .fieldset-wrapper {
+    padding: 18px 1em;
+    border: 1px solid #dddddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000340}}
+html.js fieldset.collapsed {
+  height: 2.9em; }
+
+/**
+ * $FIELDSETS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\000034}}
+.form-wrapper {
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\000038}}
+.fieldset-description {
+  margin-bottom: 9px;
+  color: #6a7076;
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\0000314}}
+.vertical-tabs fieldset.vertical-tabs-pane {
+  padding: 18px 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\0000318}}
+fieldset {
+  border: solid 1px #ddd;
+  border-top: 3px solid #0074BD;
+  padding: 12px;
+  margin: 18px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\0000325}}
+fieldset legend {
+  background: white;
+  padding: 0 3px;
+  margin: 0;
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300; }
+
+/**
+ * $FILTER-TIPS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_filter-tips\.scss}line{font-family:\000034}}
+.filter-wrapper {
+  background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_filter-tips\.scss}line{font-family:\000038}}
+.filter-wrapper {
+  border-top: 0;
+  padding: 10px 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_filter-tips\.scss}line{font-family:\0000313}}
+.filter-wrapper .fieldset-wrapper {
+  padding: 0 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_filter-tips\.scss}line{font-family:\0000317}}
+.filter-wrapper .form-item, .filter-wrapper .filter-guidelines, .filter-wrapper .filter-help {
+  font-size: 0.923em;
+  padding: 2px 0 0 0;
+  /* LTR */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_filter-tips\.scss}line{font-family:\0000323}}
+.filter-help,
+.filter-guidelines-item {
+  color: #626262; }
+
+/**
+ * $FORM-ITEM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\000034}}
+.form-item {
+  color: #6a7076; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\000037}}
+  .form-item label {
+    margin-bottom: 0.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000312}}
+  .form-item .form-select,
+  .form-item .form-text,
+  .form-item .form-textarea {
+    width: 100%;
+    padding: 0.6em;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000320}}
+  .form-item .description {
+    margin-top: 0.2em;
+    font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000329}}
+.container-inline .form-select,
+.container-inline .form-text,
+.container-inline .form-textarea {
+  width: auto; }
+
+/* Form elements (Agile Patterns) */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000336}}
+.form-item {
+  padding: 0;
+  margin: 0 0 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000341}}
+.filter-wrapper .form-item, div.teaser-checkbox .form-item, .form-item .form-item {
+  padding: 5px 0;
+  margin: 0;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000347}}
+.form-type-checkbox {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000351}}
+.text-format-wrapper .form-item {
+  padding-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000355}}
+.form-item label, .exposed-filters .form-item label {
+  font-weight: 300;
+  margin: 0;
+  padding: 0.5em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000368}}
+.form-item.form-type-textarea > label, .form-item.form-type-textfield > label, .form-item.form-type-checkboxes > label, .form-item.form-type-item > label, .form-item.form-type-select > label {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000374}}
+.form-item label.option {
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000378}}
+.form-item label.option input {
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000382}}
+.form-disabled input.form-autocomplete, .form-disabled input.form-text, .form-disabled input.form-file, .form-disabled textarea.form-textarea, .form-disabled select.form-select {
+  background-color: #eee;
+  color: #777; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000387}}
+.form-managed-file .form-file, .form-managed-file .form-submit {
+  margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000391}}
+input.form-autocomplete, input.form-text, input.form-file, textarea.form-textarea, select.form-select {
+  padding: 5px;
+  border: 2px solid #ddd;
+  background: #fff;
+  color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000398}}
+input.form-text:focus, input.form-file:focus, textarea.form-textarea:focus, select.form-select:focus {
+  color: #000;
+  border-color: #76a5d6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\00003106}}
+.form-item.form-type-select .theme-wrapper {
+  position: relative;
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\00003109}}
+  .form-item.form-type-select .theme-wrapper select.form-select {
+    padding: 0.5em 1.2em 0.4em 0.5em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    text-indent: 0.01px;
+    text-overflow: "";
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\00003122}}
+  .form-item.form-type-select .theme-wrapper:after {
+    content: '<>';
+    font: 14px "Consolas", monospace;
+    color: #aaa;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 0.8em;
+    top: 25%;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #dddddd;
+    position: absolute;
+    pointer-events: none; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\00003139}}
+    .form-item.form-type-select .theme-wrapper select.form-select {
+      padding: 0.5em 2.5em 0.4em 0.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\00003142}}
+    .form-item.form-type-select .theme-wrapper:after {
+      top: 29%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\00003152}}
+.ie .form-item.form-type-select .theme-wrapper:after {
+  display: none; }
+
+@media screen and (min-width: 0 \0) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_form-items\.scss}line{font-family:\00003162}}
+  .form-item.form-type-select .theme-wrapper:after {
+    display: none; } }
+/**
+ * $PASSWORD-CONFIRM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_password-confirm\.scss}line{font-family:\000035}}
+div.password-indicator,
+div.password-confirm {
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_password-confirm\.scss}line{font-family:\000039}}
+div.password-indicator {
+  margin-bottom: 0.4em; }
+
+/**
+ * $PASSWORD-INDICATOR
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\000034}}
+.password-indicator {
+  height: 0.8em;
+  background: none;
+  border: 1px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\000039}}
+  .password-indicator .indicator {
+    background: #e4621c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\0000314}}
+.password-strength-title {
+  margin-bottom: 0.2em; }
+
+/**
+ * $SEARCH-FORM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000035}}
+.search-block-form .form-text {
+  width: auto;
+  padding: 0.4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_vertical_tabs\.scss}line{font-family:\000033}}
+.vertical-tabs ul.vertical-tabs-list li {
+  background-color: #f7f7f7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/forms\/_vertical_tabs\.scss}line{font-family:\000039}}
+  .vertical-tabs ul.vertical-tabs-list li a:active strong, .vertical-tabs ul.vertical-tabs-list li a:focus strong, .vertical-tabs ul.vertical-tabs-list li a:hover strong {
+    color: #222222;
+    text-decoration: none; }
+
+/**
+ * $ACTION-LINKS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_action-links\.scss}line{font-family:\000034}}
+.action-links {
+  margin-bottom: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_action-links\.scss}line{font-family:\000038}}
+  .action-links li {
+    padding-left: 16px;
+    background: transparent url("../images/plus-blue.png") left center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_action-links\.scss}line{font-family:\0000313}}
+    .action-links li a {
+      color: #3b7fc4;
+      background-image: none;
+      background-position: 0 0;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_action-links\.scss}line{font-family:\0000317}}
+      .action-links li a:hover {
+        font-weight: 700; }
+
+/**
+ * $BREADCRUMB
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_breadcrumb\.scss}line{font-family:\000034}}
+.breadcrumb {
+  margin-top: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_breadcrumb\.scss}line{font-family:\000038}}
+  .breadcrumb li {
+    padding-right: 0.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_breadcrumb\.scss}line{font-family:\0000311}}
+    .breadcrumb li:after {
+      content: "»";
+      padding-left: 0.4em;
+      vertical-align: baseline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_breadcrumb\.scss}line{font-family:\0000316}}
+    .breadcrumb li:last-child:after {
+      content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_breadcrumb\.scss}line{font-family:\0000321}}
+  .breadcrumb a {
+    background-image: none;
+    background-position: 0 0;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_contextual-links\.scss}line{font-family:\000031}}
+.contextual-links {
+  top: 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_contextual-links\.scss}line{font-family:\000033}}
+  .contextual-links a {
+    background-image: none;
+    background-position: 0 0;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_contextual-links\.scss}line{font-family:\000038}}
+.contextual-links-trigger {
+  width: 32px; }
+
+/**
+ * $TABS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\000036}}
+ul.tabs {
+  margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\000039}}
+  ul.tabs.tabs--primary {
+    margin-top: 2em;
+    padding: 0;
+    border-bottom: 4px solid #dddddd;
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000315}}
+    ul.tabs.tabs--primary li {
+      display: inline;
+      margin-right: 0.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000318}}
+      ul.tabs.tabs--primary li a {
+        background-color: #eaeaea;
+        color: #6a7076;
+        border: 0 none transparent;
+        padding: 0.6em 1.5em 0.5em 1.5em;
+        background-size: auto;
+        -webkit-transition: all 0.25s ease;
+        -moz-transition: all 0.25s ease;
+        -o-transition: all 0.25s ease;
+        transition: all 0.25s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_agilebuttons\.scss}line{font-family:\0000314}}
+        ul.tabs.tabs--primary li a:hover, ul.tabs.tabs--primary li a:focus {
+          background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0.1));
+          cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_agilebuttons\.scss}line{font-family:\0000318}}
+        ul.tabs.tabs--primary li a.disabled {
+          background-image: none;
+          cursor: not-allowed;
+          opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_agilebuttons\.scss}line{font-family:\0000323}}
+        ul.tabs.tabs--primary li a.active, ul.tabs.tabs--primary li a:active {
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000320}}
+        ul.tabs.tabs--primary li a.active {
+          background-color: #dddddd;
+          color: #6a7076;
+          box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000324}}
+          ul.tabs.tabs--primary li a.active:hover {
+            background-image: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000331}}
+  ul.tabs.tabs--secondary {
+    margin: 0;
+    padding: 0;
+    padding: 0.5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_classy\.scss}line{font-family:\000039}}
+    ul.tabs.tabs--secondary li {
+      list-style-type: none;
+      list-style-image: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000334}}
+    ul.tabs.tabs--secondary li {
+      display: inline;
+      margin-right: 0.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000337}}
+      ul.tabs.tabs--secondary li a {
+        background-image: none;
+        background-position: 0 0;
+        text-decoration: none;
+        color: #6a7076;
+        padding: 0.25em 1em 0.25em 1em;
+        background-color: #f1f1f1;
+        background-size: auto;
+        -webkit-transition: all 0.25s ease;
+        -moz-transition: all 0.25s ease;
+        -o-transition: all 0.25s ease;
+        transition: all 0.25s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000344}}
+        ul.tabs.tabs--secondary li a.active {
+          background-color: #dddddd;
+          color: #6a7076;
+          border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/menus\/_tabs\.scss}line{font-family:\0000349}}
+        ul.tabs.tabs--secondary li a:hover {
+          background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0.1));
+          background-color: #dddddd; }
+
+/**
+ * $BORDER-LIST
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000034}}
+.border-list {
+  padding: 0;
+  list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000039}}
+  .border-list li {
+    padding-bottom: 1.6em;
+    margin-bottom: 1.6em;
+    border-bottom: 1px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_border-list\.scss}line{font-family:\0000314}}
+    .border-list li:last-child {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: none; }
+
+/**
+ * $BUTTONS
+ */
+/* Base Button */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\000036}}
+.button {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.8);
+  border: 0 none transparent;
+  padding: 0.6em 1.5em 0.5em 1.5em;
+  background-size: auto;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  background-color: #E6E6E6;
+  border: 0 none transparent;
+  padding: 0.25em 1.5em 0.25em 1.5em;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  display: inline-block;
+  border: none;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 2.2;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: visible;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_agilebuttons\.scss}line{font-family:\0000314}}
+  .button:hover, .button:focus {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0.1));
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_agilebuttons\.scss}line{font-family:\0000318}}
+  .button.disabled {
+    background-image: none;
+    cursor: not-allowed;
+    opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_agilebuttons\.scss}line{font-family:\0000323}}
+  .button.active, .button:active {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000315}}
+  .button:hover, .button:focus {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0.1));
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000319}}
+  .button.disabled {
+    background-image: none;
+    cursor: not-allowed;
+    opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000326}}
+  .button.active, .button:active, .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
+    background-image: none;
+    background-position: 0 0;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000346}}
+  .button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+/* Fill width of container */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000353}}
+.button--full {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center; }
+
+/* Inherit sizing from parent  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000361}}
+.button--natural {
+  vertical-align: baseline;
+  font-size: inherit;
+  line-height: inherit;
+  height: auto;
+  padding-right: 0.5em;
+  padding-left: 0.5em; }
+
+/* Button Functions */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000371}}
+.button--primary {
+  background-color: #3b7fc4;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000376}}
+.button--secondary {
+  background-color: transparent;
+  border-color: #e4621c;
+  border-style: solid;
+  border-width: 0.06667em;
+  padding: 1.53333em;
+  color: #e4621c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000382}}
+  .button--secondary:hover {
+    border-color: #6a7076;
+    background-color: transparent;
+    color: #6a7076; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000389}}
+.button--positive {
+  background-color: #3b7fc4;
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000392}}
+  .button--positive:hover {
+    background-color: #2f669d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000397}}
+.button--negative {
+  background-color: #b33630;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003100}}
+  .button--negative:hover {
+    background-color: #8b2a25; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003108}}
+.button--disabled,
+.button--disabled:hover,
+.button--disabled:active,
+.button--disabled:focus {
+  background-color: #ddd;
+  color: #777;
+  cursor: default;
+  box-shadow: none; }
+
+/* Adjacent buttons should have some space between them. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003117}}
+.button + .button,
+.button + a {
+  margin-left: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\000031}}
+.cke.cke_chrome {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\000035}}
+  .cke.cke_chrome .cke_top,
+  .cke.cke_chrome .cke_bottom {
+    background: #f7f7f7;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\000039}}
+  .cke.cke_chrome .cke_top {
+    border-bottom-color: #dddddd;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000313}}
+  .cke.cke_chrome .cke_bottom {
+    border-top-color: #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000317}}
+  .cke.cke_chrome .cke_toolgroup,
+  .cke.cke_chrome .cke_combo_button {
+    padding: 0;
+    margin: 0;
+    border-color: #c4c4c4;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    background: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000324}}
+    .cke.cke_chrome .cke_toolgroup a.cke_button,
+    .cke.cke_chrome .cke_combo_button a.cke_button {
+      height: 20px;
+      padding: 8px 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000329}}
+  .cke.cke_chrome .cke_combo_button {
+    height: 24px;
+    padding: 6px 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000333}}
+  .cke.cke_chrome .cke_toolbar_separator {
+    margin-top: 9px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000339}}
+.text-format-wrapper .ckeditor_links_wrapper {
+  float: left;
+  padding-left: 0.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000343}}
+.text-format-wrapper a.ckeditor_links {
+  background-image: linear-gradient(to bottom, transparent 75%, #333332 75%);
+  background-repeat: repeat-x;
+  text-decoration: none;
+  background-size: 2px 2px;
+  background-position: 0 1.1em;
+  color: #555555;
+  font-size: 0.93333em;
+  line-height: 1.71429em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000318}}
+  .text-format-wrapper a.ckeditor_links:visited {
+    color: #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000321}}
+  .text-format-wrapper a.ckeditor_links:hover {
+    color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000347}}
+.text-format-wrapper .filter-help {
+  margin-bottom: 0.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000349}}
+  .text-format-wrapper .filter-help p {
+    padding-right: 0.5em;
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000352}}
+    .text-format-wrapper .filter-help p a {
+      background-image: linear-gradient(to bottom, transparent 75%, #333332 75%);
+      background-repeat: repeat-x;
+      text-decoration: none;
+      background-size: 2px 2px;
+      background-position: 0 1.1em;
+      color: #555555;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000318}}
+      .text-format-wrapper .filter-help p a:visited {
+        color: #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000321}}
+      .text-format-wrapper .filter-help p a:hover {
+        color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000355}}
+      .text-format-wrapper .filter-help p a:after {
+        content: "?";
+        padding: 0 0.65em;
+        margin-left: 0.5em;
+        background: #222222;
+        color: #fff;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        border-radius: 20px;
+        float: right;
+        display: block;
+        width: 24px;
+        height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000370}}
+.text-format-wrapper .form-item {
+  clear: left;
+  margin-top: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_ckeditor\.scss}line{font-family:\0000373}}
+  .text-format-wrapper .form-item label {
+    padding-left: 0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_feed-icon\.scss}line{font-family:\000031}}
+.feed-icon {
+  background-image: none;
+  background-position: 0 0;
+  text-decoration: none; }
+
+/**
+ * $MESSAGES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_pe\.scss}line{font-family:\00003227}}
+.no-svg .messages--status, .no-js .messages--status, .no-svg .messages--warning, .no-js .messages--warning, .no-svg .messages--error, .no-js .messages--error {
+  background-image: url('../images/generated/alert-sf5ae5a5a69.png');
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_messages\.scss}line{font-family:\000039}}
+.messages {
+  padding-left: 3.5em;
+  margin-bottom: 18px;
+  background-position: 1em 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000312}}
+  .messages ul {
+    margin: 0 0 0 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000318}}
+.messages--status {
+  background-color: #d6ffcb;
+  color: #1a7000;
+  border-top: 0;
+  border-left: 5px solid #1a7000;
+  border-right: 0;
+  border-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_pe\.scss}line{font-family:\000039}}
+  .svg .messages--status {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIxcHgiIGhlaWdodD0iMjFweCIgdmlld0JveD0iMCAwIDIxIDIxIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4wLjEgKDc1OTcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPnN0YXR1czwvdGl0bGU+CiAgICA8ZGVzY3JpcHRpb24+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2NyaXB0aW9uPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9InN0YXR1cyIgc2tldGNoOnR5cGU9Ik1TTGF5ZXJHcm91cCIgZmlsbD0iIzFBNzAwMCI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMC41MTIsMC4wNDcgQzExLjk0MiwwLjA0NyAxMy4yOTUsMC4zMjIgMTQuNTczLDAuODczIEMxNS44NTEsMS40MjQgMTYuOTU4LDIuMTY4IDE3Ljg5NSwzLjEwNSBDMTguODMyLDQuMDQyIDE5LjU3Nyw1LjE1IDIwLjEyNyw2LjQyNyBDMjAuNjc3LDcuNzA0IDIwLjk1Myw5LjA1OCAyMC45NTMsMTAuNDg4IEMyMC45NTMsMTEuOTQxIDIwLjY3OCwxMy4yOTUgMjAuMTI3LDE0LjU0OSBDMTkuNTc2LDE1LjgwMyAxOC44MzIsMTYuODk5IDE3Ljg5NSwxNy44MzYgQzE2Ljk1OCwxOC43NzMgMTUuODUsMTkuNTEyIDE0LjU3MywyMC4wNTEgQzEzLjI5NiwyMC41OSAxMS45NDIsMjAuODYgMTAuNTEyLDIwLjg2IEM5LjA1OSwyMC44NiA3LjcwNSwyMC41OSA2LjQ1MSwyMC4wNTEgQzUuMTk3LDE5LjUxMiA0LjEwMSwxOC43NzQgMy4xNjQsMTcuODM2IEMyLjIyNywxNi44OTggMS40ODgsMTUuODAzIDAuOTQ5LDE0LjU0OSBDMC40MSwxMy4yOTUgMC4xNCwxMS45NDIgMC4xNCwxMC40ODggQzAuMTQsOS4wNTggMC40MSw3LjcwNSAwLjk0OSw2LjQyNyBDMS40ODgsNS4xNDkgMi4yMjYsNC4wNDIgMy4xNjQsMy4xMDUgQzQuMTAyLDIuMTY4IDUuMTk3LDEuNDIzIDYuNDUxLDAuODczIEM3LjcwNSwwLjMyMyA5LjA1OSwwLjA0NyAxMC41MTIsMC4wNDcgTDEwLjUxMiwwLjA0NyBaIE0xNS45OTYsNy4zMjQgQzE2LjExMyw3LjE4MyAxNi4xNTQsNy4wMzEgMTYuMTE5LDYuODY3IEMxNi4wODQsNi43MDMgMTUuOTk2LDYuNTYyIDE1Ljg1NSw2LjQ0NSBMMTQuOTA2LDUuODEyIEMxNC41NzgsNS42NDggMTQuMzA4LDUuNjk1IDE0LjA5Nyw1Ljk1MyBMOS40OTIsMTIuODA4IEw3LjM0NywxMC42MjggQzcuMDg5LDEwLjQ2NCA2LjgyLDEwLjQ2NCA2LjUzOCwxMC42MjggTDUuNjk0LDExLjUwNyBDNS41NzcsMTEuNjI0IDUuNTE4LDExLjc1MyA1LjUxOCwxMS44OTQgQzUuNTE4LDEyLjAzNSA1LjU3NywxMi4xNjQgNS42OTQsMTIuMjgxIEw5LDE1LjU4NiBDOS4xMTcsMTUuNjU2IDkuMjM0LDE1LjcyNyA5LjM1MiwxNS43OTcgQzkuNDcsMTUuODY3IDkuNTg2LDE1LjkwMiA5LjcwNCwxNS45MDIgQzEwLjAzMiwxNS45MDIgMTAuMjc4LDE1Ljc1IDEwLjQ0MiwxNS40NDUgTDE1Ljk5Niw3LjMyNCBMMTUuOTk2LDcuMzI0IFoiIGlkPSJTaGFwZSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+');
+    background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_pe\.scss}line{font-family:\0000327}}
+  .no-svg .messages--status, .no-js .messages--status {
+    background-position: 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000328}}
+.messages--warning {
+  background-color: #fffecb;
+  color: #ff9421;
+  border-top: 0;
+  border-left: 5px solid #ff9421;
+  border-right: 0;
+  border-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_pe\.scss}line{font-family:\000039}}
+  .svg .messages--warning {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIxcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIxIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4wLjEgKDc1OTcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPndhcm5pbmc8L3RpdGxlPgogICAgPGRlc2NyaXB0aW9uPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjcmlwdGlvbj4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPgogICAgICAgIDxnIGlkPSJ3YXJuaW5nIiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMS4wMDAwMDApIiBmaWxsPSIjRkY5NDIxIj4KICAgICAgICAgICAgPHBhdGggZD0iTTIwLjUzMSwxNS4zMjQgQzIwLjc2NSwxNS43NDYgMjAuOSwxNi4xNDQgMjAuOTM1LDE2LjUxOSBDMjAuOTcsMTYuODk0IDIwLjksMTcuMjIyIDIwLjcyNCwxNy41MDMgQzIwLjU0OCwxNy43ODQgMjAuMjksMTguMDA3IDE5Ljk1MSwxOC4xNzEgQzE5LjYxMiwxOC4zMzUgMTkuMTk1LDE4LjQxNyAxOC43MDMsMTguNDE3IEwyLjM5MSwxOC40MTcgQzEuMzYsMTguNDE3IDAuNjc0LDE4LjEwNiAwLjMzNCwxNy40ODUgQy0wLjAwNiwxNi44NjQgMC4wNywxNi4xNDMgMC41NjMsMTUuMzIzIEw4LjcxOSwxLjEyMSBDOS4yMTEsMC4yNTQgOS44MDksLTAuMTggMTAuNTEyLC0wLjE4IEMxMS4yMTUsLTAuMTggMTEuODM2LDAuMjU0IDEyLjM3NSwxLjEyMSBMMjAuNTMxLDE1LjMyNCBMMjAuNTMxLDE1LjMyNCBaIE05LjQyMiw1LjE2NCBDOS4yODEsNS4zMDUgOS4xNzYsNS40OCA5LjEwNSw1LjY5MSBDOS4wMzQsNS45MDIgOSw2LjExMyA5LDYuMzI0IEM5LDYuNDE4IDkuMDM1LDYuNjUyIDkuMTA1LDcuMDI3IEM5LjE3NSw3LjQwMiA5LjI1MSw3Ljg1MyA5LjMzNCw4LjM4MSBDOS40MTcsOC45MDkgOS41MDQsOS40ODMgOS41OTgsMTAuMTA0IEM5LjY5MiwxMC43MjUgOS43NjIsMTEuMzE3IDkuODA5LDExLjg3OSBMMTEuMjE1LDExLjg3OSBDMTEuMjg1LDExLjMxNiAxMS4zNjcsMTAuNzI1IDExLjQ2MSwxMC4xMDQgQzExLjU1NSw5LjQ4MyAxMS42NDksOC45MDkgMTEuNzQyLDguMzgxIEMxMS44MzUsNy44NTMgMTEuOTE4LDcuNDAyIDExLjk4OCw3LjAyNyBDMTIuMDU4LDYuNjUyIDEyLjA5Myw2LjQxOCAxMi4wOTMsNi4zMjQgQzEyLjA5Myw2LjExMyAxMi4wNTgsNS45MDIgMTEuOTg4LDUuNjkxIEMxMS45MTgsNS40OCAxMS44MTIsNS4zMDQgMTEuNjcyLDUuMTY0IEMxMS4zNDQsNC44MzYgMTAuOTU3LDQuNjcyIDEwLjUxMiw0LjY3MiBDMTAuMDQzLDQuNjcyIDkuNjgsNC44MzYgOS40MjIsNS4xNjQgTDkuNDIyLDUuMTY0IFogTTExLjYwMiwxNS40NjUgQzExLjkzLDE1LjIwNyAxMi4wOTQsMTQuODQ0IDEyLjA5NCwxNC4zNzUgQzEyLjA5NCwxMy45MDYgMTEuOTMsMTMuNTIgMTEuNjAyLDEzLjIxNSBDMTEuNDYxLDEzLjA3NCAxMS4yOTcsMTIuOTU3IDExLjExLDEyLjg2MyBDMTAuOTIzLDEyLjc2OSAxMC43MjMsMTIuNzIyIDEwLjUxMiwxMi43MjIgQzEwLjExNCwxMi43MjIgOS43NSwxMi44ODYgOS40MjIsMTMuMjE0IEM5LjE0MSwxMy41NDMgOSwxMy45MyA5LDE0LjM3NSBDOSwxNC44MiA5LjE0MSwxNS4xODQgOS40MjIsMTUuNDY1IEM5LjU2MywxNS41ODIgOS43MzMsMTUuNjgyIDkuOTMyLDE1Ljc2NCBDMTAuMTMxLDE1Ljg0NiAxMC4zMjUsMTUuODg3IDEwLjUxMiwxNS44ODcgQzEwLjcyMywxNS44ODcgMTAuOTIyLDE1Ljg0NiAxMS4xMSwxNS43NjQgQzExLjI5OCwxNS42ODIgMTEuNDYxLDE1LjU4MiAxMS42MDIsMTUuNDY1IEwxMS42MDIsMTUuNDY1IFoiIGlkPSJTaGFwZSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+');
+    background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_pe\.scss}line{font-family:\0000327}}
+  .no-svg .messages--warning, .no-js .messages--warning {
+    background-position: 0 -21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000338}}
+.messages--error {
+  background-color: #ffdddd;
+  color: #c70000;
+  border-top: 0;
+  border-left: 5px solid #c70000;
+  border-right: 0;
+  border-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_pe\.scss}line{font-family:\000039}}
+  .svg .messages--error {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIxcHgiIGhlaWdodD0iMjFweCIgdmlld0JveD0iMCAwIDIxIDIxIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4wLjEgKDc1OTcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPmVycm9yPC90aXRsZT4KICAgIDxkZXNjcmlwdGlvbj5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzY3JpcHRpb24+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4KICAgICAgICA8ZyBpZD0iZXJyb3IiIHNrZXRjaDp0eXBlPSJNU0xheWVyR3JvdXAiPgogICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsLTEiIGZpbGw9IiNDNzAwMDAiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiIGN4PSIxMC41IiBjeT0iMTAuNSIgcj0iMTAuNSI+PC9jaXJjbGU+CiAgICAgICAgICAgIDxnIGlkPSJMaW5lLTItKy1MaW5lIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjAwMDAwMCwgNi4wMDAwMDApIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNOC41LDAuNSBMMC41LDguNSIgaWQ9IkxpbmUtMiI+PC9wYXRoPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTAuNSwwLjUgTDguNSw4LjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==');
+    background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/luke\/\.rvm\/gems\/ruby-1\.9\.3-p547\@omega\.niskala\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_pe\.scss}line{font-family:\0000327}}
+  .no-svg .messages--error, .no-js .messages--error {
+    background-position: 0 -41px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_navbar\.scss}line{font-family:\000033}}
+#navbar-administration .navbar-tray.navbar-tray-vertical {
+  border-right: 1px solid #eee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_navbar\.scss}line{font-family:\000036}}
+  #navbar-administration .navbar-tray.navbar-tray-vertical > .navbar-lining::before {
+    background-color: #fafafa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_navbar\.scss}line{font-family:\000039}}
+  #navbar-administration .navbar-tray.navbar-tray-vertical .navbar-menu-item {
+    background-color: #fdfdfd; }
+
+/**
+ * $PAGER
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_pager\.scss}line{font-family:\000038}}
+.pager__item {
+  display: block;
+  float: left;
+  margin: 0.1em;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000317}}
+.pager__item a,
+.pager__item--current,
+.pager__item--ellipsis {
+  display: block;
+  padding: 0.5em 0.8em;
+  border: 1px solid #6a7076;
+  color: #6a7076;
+  background-image: none;
+  background-position: 0 0;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000324}}
+.pager__item a:hover {
+  background-color: #3b7fc4;
+  border-color: #3b7fc4;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000329}}
+.pager__item--current {
+  border-color: #3b7fc4;
+  color: #3b7fc4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000333}}
+.pager__item--ellipsis {
+  border: none; }
+
+/**
+ * $PROGRESS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_progress\.scss}line{font-family:\000035}}
+.progress .bar {
+  background-color: #f7f7f7;
+  border-color: #6a7076;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_progress\.scss}line{font-family:\0000310}}
+.progress .filled {
+  background: #3b7fc4; }
+
+/**
+ * $SECTION-TITLE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_section-title\.scss}line{font-family:\000034}}
+.section-title {
+  padding-bottom: 0.8em;
+  margin-bottom: 1.6em;
+  border-bottom: 1px solid #bcd8e3; }
+
+/**
+ * $SITE-BRANDING
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\000034}}
+.site-branding {
+  padding: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000310}}
+.site-branding__name,
+.site-branding__logo {
+  display: block;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000315}}
+.site-branding__logo {
+  margin-right: 1em;
+  background-image: none;
+  background-position: 0 0;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000320}}
+.site-branding__name {
+  margin: 0;
+  color: #fff;
+  background-image: none;
+  background-position: 0 0;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000326}}
+  .site-branding__name:visited {
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000329}}
+  .site-branding__name:hover {
+    color: #fff; }
+
+/**
+ * $NODE-BASIC-PAGE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/node\/_node-article\.scss}line{font-family:\000035}}
+.node--article .field--name-field-image {
+  float: left;
+  margin: 0 2em 1em 0; }
+
+/**
+ * $NODE
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/node\/_node\.scss}line{font-family:\000034}}
+.node--teaser {
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/node\/_node\.scss}line{font-family:\000038}}
+.node__links {
+  margin-bottom: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/node\/_node\.scss}line{font-family:\0000310}}
+  .node__links li > a {
+    display: inline;
+    background-image: linear-gradient(to bottom, transparent 75%, #333332 75%);
+    background-repeat: repeat-x;
+    text-decoration: none;
+    background-size: 2px 2px;
+    background-position: 0 1.1em;
+    color: #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000318}}
+    .node__links li > a:visited {
+      color: #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/abstractions\/_underlines\.scss}line{font-family:\0000321}}
+    .node__links li > a:hover {
+      color: black; }
+
+/**
+ * $EXPOSED FORM
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/components\/views\/_exposed-form\.scss}line{font-family:\000037}}
+.views-exposed-form .views-submit-button + .views-reset-button {
+  margin-left: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\000032}}
+body {
+  background: #333;
+  color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\000037}}
+a {
+  color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000312}}
+a:visited,
+p a:visited,
+span a:visited {
+  color: #C00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000315}}
+a:hover {
+  text-decoration: underline; }
+
+/*Main Menu*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000321}}
+#block-system-main-menu ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000325}}
+#block-system-main-menu ul li {
+  float: left;
+  background-image: none;
+  display: block;
+  padding: 0;
+  margin: 0 10px 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000334}}
+#block-system-main-menu ul li a,
+#block-system-main-menu ul li a:visited {
+  padding: 8px;
+  color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000338}}
+#block-system-main-menu ul li a:hover {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000344}}
+body {
+  background: #333333 url("../images/patt2.jpg") repeat center;
+  color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000349}}
+.l-header {
+  background: black url("../images/patt2.jpg") repeat center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000357}}
+body .l-main {
+  padding: 30px;
+  background: #222;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000364}}
+body .l-footer-wrapper {
+  background: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000368}}
+.l-header .l-constrained {
+  background: black url("../images/header_001.jpg") no-repeat center;
+  height: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\0000373}}
+.l-constrained {
+  max-width: 980px; }

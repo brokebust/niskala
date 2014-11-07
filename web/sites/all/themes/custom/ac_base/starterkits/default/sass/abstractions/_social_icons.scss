@@ -1,0 +1,33 @@
+// Provides sprites for social icons. To use, simply include to the mixin and
+// the name of the icon. Icons are provided for: linkedin, facebook, google,
+// twitter, youtube. A Sketch formatted file is also provided to create more.
+// @see Tanc for more information if needed.
+//@import "social-icons/*.png";
+
+$dir: 'social-icons';
+
+@include sprite-map-generator($dir);
+
+@mixin social-icons($name) {
+  margin-right: $horz-spacing-unit / 2;
+  display: inline-block;
+  width: 28px;
+  a {
+    @include nounderline();
+    background-position: 0 0;
+    display: block;
+    height: 26px;
+    @include hide-text();
+  }
+
+  a.#{$name} {
+    @include svg-background($dir, $name);
+    &:hover {
+      @include svg-background($dir, $name + "_hover");
+    }
+    &:focus,
+    &.active {
+      @include svg-background($dir, $name + "_active");
+    }
+  }
+}

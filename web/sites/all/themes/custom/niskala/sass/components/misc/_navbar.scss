@@ -1,0 +1,14 @@
+#navbar-administration {
+  .navbar-tray {
+    &.navbar-tray-vertical {
+      // Add a vertical line to the navbar whilst in vertical mode.
+      border-right: 1px solid #eee;
+      > .navbar-lining::before {
+        background-color: #fafafa;
+      }
+      .navbar-menu-item {
+        background-color: #fdfdfd;
+      }
+    }
+  }
+}

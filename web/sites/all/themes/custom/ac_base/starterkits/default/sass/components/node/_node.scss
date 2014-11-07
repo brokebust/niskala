@@ -1,0 +1,14 @@
+/**
+ * $NODE
+ */
+.node--teaser {
+  margin-bottom: $vert-spacing-unit;
+}
+
+.node__links {
+  margin-bottom: $vert-spacing-unit;
+  li > a {
+    display: inline;
+    @include underline();
+  }
+}

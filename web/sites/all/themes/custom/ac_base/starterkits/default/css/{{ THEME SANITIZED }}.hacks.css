@@ -1,0 +1,57 @@
+@media all and (max-width: 800px) {
+  #toolbar, #admin-menu {
+    display: none;
+  }
+
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+#admin-menu #admin-menu-wrapper {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#admin-menu #admin-menu-wrapper #environment-indicator .environment-indicator-name {
+  border-radius: 0;
+}
+
+#admin-menu #admin-menu-wrapper #environment-indicator .item-list,
+#admin-menu #admin-menu-wrapper #environment-indicator .environment-switcher-container {
+  display: none !important;
+}
+
+#admin-menu #admin-menu,
+#admin-menu #admin-menu-wrapper {
+  background-color: #202020 !important;
+}
+
+@media all and (max-width: 800px) {
+  #toolbar, #admin-menu {
+    display: none;
+  }
+
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+#admin-menu #admin-menu-wrapper {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#admin-menu #admin-menu-wrapper #environment-indicator .environment-indicator-name {
+  border-radius: 0;
+}
+
+#admin-menu #admin-menu-wrapper #environment-indicator .item-list,
+#admin-menu #admin-menu-wrapper #environment-indicator .environment-switcher-container {
+  display: none !important;
+}
+
+#admin-menu #admin-menu,
+#admin-menu #admin-menu-wrapper {
+  background-color: #202020 !important;
+}

@@ -1,0 +1,51 @@
+/*******************************************************************************
+ * ac-base-hero.layout.scss
+ *
+ * Additional, theme specific styles for the Hero layout.
+ ******************************************************************************/
+/* Header */
+.l-header {
+  background-color: #222222;
+}
+
+/* Content Area */
+.l-highlighted-wrapper {
+  background: #fff;
+}
+
+/* Sidebars */
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  background-color: #fff;
+}
+
+/* Footer */
+.l-footer-wrapper {
+  background: #fff;
+}
+
+/*******************************************************************************
+ * ac-base-hero.layout.scss
+ *
+ * Additional, theme specific styles for the Hero layout.
+ ******************************************************************************/
+/* Header */
+.l-header {
+  background-color: #222222;
+}
+
+/* Content Area */
+.l-highlighted-wrapper {
+  background: #fff;
+}
+
+/* Sidebars */
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  background-color: #fff;
+}
+
+/* Footer */
+.l-footer-wrapper {
+  background: #fff;
+}

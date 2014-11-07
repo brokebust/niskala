@@ -1,0 +1,36 @@
+/**
+ * $UNDERLINES
+ */
+
+// By default the underlined links will be the body copy colour. You may
+// want to change this in your colors.scss variables partial.
+$underlined-links-color: $body-copy-color !default;
+$underlined-links-hover-color: darken($body-copy-color, 15%) !default;
+
+// A mixin for underlining links.
+@mixin underline() {
+  background-image: linear-gradient(to bottom, transparent 75%, #333332 75%);
+  background-repeat: repeat-x;
+  text-decoration: none;
+  background-size: 2px 2px;
+  background-position: 0 1.1em;
+  color: $underlined-links-color;
+  &:visited {
+    color: $underlined-links-color;
+  }
+  &:hover {
+    color: $underlined-links-hover-color;
+  }
+}
+
+// Removes the underline code.
+@mixin nounderline() {
+  background-image: none;
+  background-position: 0 0;
+  text-decoration: none;
+}
+
+// Exclude the coffee module.
+#coffee-form a {
+  @include nounderline();
+}

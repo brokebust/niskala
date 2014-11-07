@@ -1,0 +1,32 @@
+/**
+ * $FIELDSETS
+ */
+.form-wrapper {
+  margin-bottom: $vert-spacing-unit;
+}
+
+.fieldset-description {
+  margin-bottom: $vert-spacing-unit / 2;
+  color: $color-nevada;
+  font-style: italic;
+}
+
+.vertical-tabs fieldset.vertical-tabs-pane {
+  padding: $vert-spacing-unit $horz-spacing-unit;
+}
+
+fieldset {
+  border: solid 1px #ddd;
+  border-top: 3px solid #0074BD;
+  padding: 12px;
+  margin: 18px 0;
+}
+
+fieldset legend {
+  background: white;
+  padding: 0 3px;
+  margin: 0;
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}

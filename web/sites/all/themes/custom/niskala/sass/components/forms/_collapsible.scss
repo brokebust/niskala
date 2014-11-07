@@ -1,0 +1,42 @@
+/**
+ * $COLLAPSIBLE
+ */
+html.js fieldset.collapsible { // Overspecified
+  padding: 0;
+  border: none;
+
+  legend {
+    width: 100%;
+    padding: 0;
+  }
+  .fieldset-legend {
+    padding: 0;
+    background: none;
+
+    .summary {
+      float: right;
+    }
+  }
+  .fieldset-title {
+    display: block;
+    padding: 0.75em;
+
+    background-color: $box-background-color;
+
+    color: $link-color;
+    @include nounderline();
+
+    &:hover {
+      background-color: $color-botticelli;
+      color: $color-teal-blue;
+    }
+  }
+  .fieldset-wrapper {
+    padding: $vert-spacing-unit $horz-spacing-unit;
+    border: 1px solid $border-color;
+  }
+}
+
+html.js fieldset.collapsed { // Overspecified
+  height: 2.9em; // padding-top + padding-bottom + line-height
+}

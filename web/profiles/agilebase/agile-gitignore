@@ -1,0 +1,16 @@
+# settings.php
+web/sites/default/settings.php
+
+# files directory
+web/sites/default/files
+# private files directory
+private
+
+# IDE files
+.idea
+
+# OS X files
+.DS_Store
+
+# Ignore the .htaccess file to allow us to make changes specific to environment
+web/.htaccess

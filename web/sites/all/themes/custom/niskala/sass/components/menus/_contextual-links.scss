@@ -1,0 +1,10 @@
+.contextual-links {
+  top: 17px;
+  a {
+    @include nounderline();
+  }
+}
+
+.contextual-links-trigger {
+  width: 32px;
+}

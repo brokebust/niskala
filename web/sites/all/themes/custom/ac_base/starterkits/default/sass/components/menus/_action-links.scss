@@ -1,0 +1,23 @@
+/**
+ * $ACTION-LINKS
+ */
+.action-links {
+  @extend %hlist;
+  margin-bottom: $vert-spacing-unit;
+
+  li {
+    padding-left: 16px;
+
+    background: transparent url('../images/plus-blue.png') left center no-repeat;
+
+    a {
+      color: $link-color;
+      @include nounderline();
+
+      &:hover {
+        font-weight: 700;
+      }
+    }
+  }
+}
+

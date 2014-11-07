@@ -1,0 +1,85 @@
+/**
+ * Collected colours.
+ *
+ * These are colours Agile Collective have gathered and might want to re-use
+ * in other projects. Usually they would not be referenced directly, instead
+ * they would be referenced in the colour based variables above.
+ *
+ * Your colours should be named using the 'Name that color' web service.
+ *
+ * @see: http://chir.ag/projects/name-that-color
+ */
+
+// Black.
+$color-black: #000000;
+
+// Blues.
+$color-botticelli: #d9e9ef;
+$color-picton-blue: #52b1ea;
+$color-lochmara: #077dc3;
+$color-teal-blue: #064771;
+$color-boston-blue: #3b7fc4;
+
+// Oranges.
+$color-hot-cinnamon: #e4621c;
+$color-tacao: #efa47b;
+
+// Greens.
+$color-apple: #4a993e;
+
+// Reds.
+$color-well-read: #b33630;
+
+// Yellows.
+$color-wattle: #d6d22e;
+
+// Greys.
+$color-alto: #ddd;
+$color-nevada: #6a7076;
+$color-mine-shaft: #222222;
+
+/**
+ * Site colours.
+ *
+ * The colours specific to this site are defined below. Avoid using any hex
+ * colours here, instead use a variable referencing a hex colour defined above.
+ * If your colour isn't defined yet, go to http://chir.ag/projects/name-that-color
+ * and enter your hex value to find your colour name and then add it to the
+ * appropriate colour section above.
+ */
+
+$body-copy-color: $color-mine-shaft;
+$base-color: $color-boston-blue;
+$text-over-base-color: #FFF;
+$link-color: $color-boston-blue;
+$underlined-links-color: lighten($body-copy-color, 20%);
+$underlined-links-hover-color: $color-black;
+
+$warning-color: $color-hot-cinnamon;
+$negative-color: $color-well-read;
+
+$form-description-color: lighten($body-copy-color, 25%);
+$border-color: $color-alto;
+
+$box-background-color: lighten($border-color, 10%);
+
+// Accent 1 - This is the primary colour of the site.
+$accent-1: $base-color;
+$accent-1-lighter: mix($accent-1, #FFF, 80%);
+$accent-1-lightest: mix($accent-1, #FFF, 20%);
+$accent-1-darker: mix($accent-1, #000, 80%);
+
+// Accent 2 - The secondary colour of the site.
+$accent-2: $color-hot-cinnamon;
+$accent-2-lighter: mix($accent-2, #FFF, 80%);
+
+// Accent 3 - The tertiary colour of the site.
+$accent-3: $color-well-read;
+
+// Page background colour.
+$page_background: #ffffff;
+
+// For positive actions, such as submit buttons.
+$positive: $accent-1;
+$positive-lighter: $accent-1-lightest;
+$text-over-positive-color: #fff;

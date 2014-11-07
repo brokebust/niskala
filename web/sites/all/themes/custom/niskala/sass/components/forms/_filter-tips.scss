@@ -1,0 +1,25 @@
+/**
+ * $FILTER-TIPS
+ */
+.filter-wrapper {
+  background-color: #fff;
+}
+
+.filter-wrapper {
+  border-top: 0;
+  padding: 10px 2px;
+}
+
+.filter-wrapper .fieldset-wrapper {
+  padding: 0 6px;
+}
+
+.filter-wrapper .form-item, .filter-wrapper .filter-guidelines, .filter-wrapper .filter-help {
+  font-size: 0.923em;
+  padding: 2px 0 0 0; /* LTR */
+}
+
+.filter-help,
+.filter-guidelines-item {
+  color: $form-description-color;
+}

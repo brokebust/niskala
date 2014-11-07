@@ -1,0 +1,167 @@
+/**
+ * $FORM-ITEM
+ */
+.form-item {
+  color: $color-nevada;
+
+  label {
+    margin-bottom: 0.4em;
+  }
+  .form-select,
+  .form-text,
+  .form-textarea {
+    width: 100%;
+    padding: 0.6em;
+    background-color: #fff;
+    border: 1px solid $border-color;
+//    color: $color-nevada;
+    vertical-align: middle;
+  }
+  .description {
+    margin-top: 0.2em;
+    font-style: italic;
+  }
+}
+
+.container-inline {
+  .form-select,
+  .form-text,
+  .form-textarea {
+    width: auto;
+  }
+}
+
+/* Form elements (Agile Patterns) */
+
+.form-item {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.filter-wrapper .form-item, div.teaser-checkbox .form-item, .form-item .form-item {
+  padding: 5px 0;
+  margin: 0;
+  border: 0;
+}
+
+.form-type-checkbox {
+  padding: 0;
+}
+
+.text-format-wrapper .form-item {
+  padding-bottom: 0;
+}
+
+.form-item label, .exposed-filters .form-item label {
+  font-weight: 300;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+// Make the label bold for some items.
+.form-item {
+  &.form-type-textarea,
+  &.form-type-textfield,
+  &.form-type-checkboxes,
+  &.form-type-item,
+  &.form-type-select {
+    > label {
+      font-weight: 700;
+    }
+  }
+}
+
+.form-item label.option {
+  text-transform: none;
+}
+
+.form-item label.option input {
+  vertical-align: middle;
+}
+
+.form-disabled input.form-autocomplete, .form-disabled input.form-text, .form-disabled input.form-file, .form-disabled textarea.form-textarea, .form-disabled select.form-select {
+  background-color: #eee;
+  color: #777;
+}
+
+.form-managed-file .form-file, .form-managed-file .form-submit {
+  margin-left: 10px;
+}
+
+input.form-autocomplete, input.form-text, input.form-file, textarea.form-textarea, select.form-select {
+  padding: 5px;
+  border: 2px solid #ddd;
+  background: #fff;
+  color: #333;
+}
+
+input.form-text:focus, input.form-file:focus, textarea.form-textarea:focus, select.form-select:focus {
+  color: #000;
+  border-color: lighten($accent-1, 15%);
+}
+
+// Custom select widgets. Experimental stuff. Works nicely with webkit and
+// Firefox but IE is a no-go so we disable it afterwards.
+.form-item.form-type-select {
+  .theme-wrapper {
+    position: relative;
+    display: inline-block;
+    select.form-select {
+      padding: 0.5em 1.2em 0.4em 0.5em;
+      // Remove browser styling.
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: #fff;
+      text-indent: 0.01px;
+      text-overflow: "";
+      @include border-radius(0);
+      display: inline-block;
+      cursor: pointer;
+    }
+    &:after {
+      content: '<>';
+      font: 14px "Consolas", monospace;
+      color: #aaa;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      right: 0.8em;
+      top: 25%;
+      padding: 0 0 2px;
+      border-bottom: 1px solid $border-color;
+      position: absolute;
+      pointer-events: none;
+    }
+    // For webkit.
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      select.form-select {
+        padding: 0.5em 2.5em 0.4em 0.5em;
+      }
+      &:after {
+        top: 29%;
+      }
+    }
+  }
+}
+
+// Disable this for IE using conditional styles.
+.ie .form-item.form-type-select {
+  .theme-wrapper {
+    &:after {
+      display: none;
+    }
+  }
+}
+
+// IE 10+ doesn't support conditionals so we need this hack.
+@media screen and (min-width: 0\0) {
+  .form-item.form-type-select {
+    .theme-wrapper {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

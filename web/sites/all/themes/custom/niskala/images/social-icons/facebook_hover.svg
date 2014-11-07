@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="26px" viewBox="0 0 12 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook_hover</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Hover" sketch:type="MSLayerGroup" fill="#CF1825">
+            <path d="M2.53339535,5.03562222 L2.53339535,8.61524444 L0,8.61524444 L0,12.9927778 L2.53339535,12.9927778 L2.53339535,26 L7.73776744,26 L7.73776744,12.9927778 L11.2297674,12.9927778 C11.2297674,12.9927778 11.5568372,10.8937111 11.7150698,8.59877778 L7.75730233,8.59877778 L7.75730233,5.60588889 C7.75730233,5.15868889 8.32465116,4.55693333 8.8855814,4.55693333 L11.7209302,4.55693333 L11.7209302,0 L7.8655814,0 C2.40474419,0 2.53339535,4.38128889 2.53339535,5.03562222" id="facebook" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

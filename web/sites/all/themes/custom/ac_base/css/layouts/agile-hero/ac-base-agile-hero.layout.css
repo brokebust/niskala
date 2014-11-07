@@ -1,0 +1,25 @@
+/*******************************************************************************
+ * ac-base-hero.layout.scss
+ *
+ * Additional, theme specific styles for the Hero layout.
+ ******************************************************************************/
+/* Header */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanc\/Sites\/vagrant_agile\/sites\/l\.agilebase\/gitroot\/web\/sites\/all\/themes\/custom\/ac_base\/sass\/layouts\/agile-hero\/ac-base-agile-hero\.layout\.scss}line{font-family:\0000314}}
+.l-header {
+  background-color: #222222; }
+
+/* Content Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanc\/Sites\/vagrant_agile\/sites\/l\.agilebase\/gitroot\/web\/sites\/all\/themes\/custom\/ac_base\/sass\/layouts\/agile-hero\/ac-base-agile-hero\.layout\.scss}line{font-family:\0000319}}
+.l-highlighted-wrapper {
+  background: #fff; }
+
+/* Sidebars */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanc\/Sites\/vagrant_agile\/sites\/l\.agilebase\/gitroot\/web\/sites\/all\/themes\/custom\/ac_base\/sass\/layouts\/agile-hero\/ac-base-agile-hero\.layout\.scss}line{font-family:\0000325}}
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  background-color: #fff; }
+
+/* Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanc\/Sites\/vagrant_agile\/sites\/l\.agilebase\/gitroot\/web\/sites\/all\/themes\/custom\/ac_base\/sass\/layouts\/agile-hero\/ac-base-agile-hero\.layout\.scss}line{font-family:\0000330}}
+.l-footer-wrapper {
+  background: #fff; }

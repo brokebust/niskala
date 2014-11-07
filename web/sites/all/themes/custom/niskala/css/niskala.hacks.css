@@ -1,0 +1,23 @@
+@media all and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/niskala\.hacks\.scss}line{font-family:\000033}}
+  #toolbar, #admin-menu {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/niskala\.hacks\.scss}line{font-family:\000038}}
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/niskala\.hacks\.scss}line{font-family:\0000317}}
+#admin-menu #admin-menu-wrapper {
+  -webkit-font-smoothing: subpixel-antialiased; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/niskala\.hacks\.scss}line{font-family:\0000323}}
+  #admin-menu #admin-menu-wrapper #environment-indicator .environment-indicator-name {
+    border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/niskala\.hacks\.scss}line{font-family:\0000327}}
+  #admin-menu #admin-menu-wrapper #environment-indicator .item-list,
+  #admin-menu #admin-menu-wrapper #environment-indicator .environment-switcher-container {
+    display: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/niskala\.hacks\.scss}line{font-family:\0000334}}
+#admin-menu #admin-menu,
+#admin-menu #admin-menu-wrapper {
+  background-color: #202020 !important; }

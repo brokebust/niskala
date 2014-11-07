@@ -1,0 +1,8 @@
+/**
+ * $SHARETHIS
+ *
+ * Fixes the sharethis block's layout be resetting to content-box model.
+ */
+.block--sharethis * {
+  @include box-sizing(content-box);
+}

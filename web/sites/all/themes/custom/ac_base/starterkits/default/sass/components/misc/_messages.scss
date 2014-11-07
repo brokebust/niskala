@@ -1,0 +1,46 @@
+/**
+ * $MESSAGES
+ */
+
+$dir: 'alert';
+
+@include sprite-map-generator($dir);
+
+.messages {
+  padding-left: $horz-spacing-unit * 3.5;
+  margin-bottom: $vert-spacing-unit;
+  ul {
+    margin: 0 0 0 $horz-spacing-unit * 1.5;
+  }
+  background-position: $horz-spacing-unit 50%;
+}
+
+.messages--status {
+  @include svg-background($dir, status, true, false);
+  background-color: #d6ffcb;
+  color: #1a7000;
+  border-top: 0;
+  border-left: 5px solid #1a7000;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.messages--warning {
+  @include svg-background($dir, warning, true, false);
+  background-color: #fffecb;
+  color: #ff9421;
+  border-top: 0;
+  border-left: 5px solid #ff9421;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.messages--error {
+  @include svg-background($dir, error, true, false);
+  background-color: #ffdddd;
+  color: #c70000;
+  border-top: 0;
+  border-left: 5px solid #c70000;
+  border-right: 0;
+  border-bottom: 0;
+}

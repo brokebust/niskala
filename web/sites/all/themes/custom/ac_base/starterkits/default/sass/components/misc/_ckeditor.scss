@@ -1,0 +1,77 @@
+.cke.cke_chrome {
+  @include box-shadow(none);
+  border-color: $border-color;
+  .cke_top,
+  .cke_bottom {
+    background: $box-background-color;
+    @include box-shadow(none);
+  }
+  .cke_top {
+    border-bottom-color: $border-color;
+    padding: 0;
+  }
+  .cke_bottom {
+    border-top-color: $border-color;
+  }
+  .cke_toolgroup,
+  .cke_combo_button {
+    padding: 0;
+    margin: 0;
+    border-color: darken($border-color, 10%);
+    border: 0;
+    @include border-radius(0);
+    background: none;
+    a.cke_button {
+      height: 20px;
+      padding: 8px 8px;
+    }
+  }
+  .cke_combo_button {
+    height: 24px;
+    padding: 6px 8px;
+  }
+  .cke_toolbar_separator {
+    margin-top: 9px;
+  }
+}
+
+.text-format-wrapper {
+  .ckeditor_links_wrapper {
+    float: left;
+    padding-left: $horz-spacing-unit / 2;
+  }
+  a.ckeditor_links {
+    @include underline();
+    @include adjust-font-size-to(14px);
+  }
+  .filter-help {
+    margin-bottom: $horz-spacing-unit / 2;
+    p {
+      padding-right: $horz-spacing-unit / 2;
+      margin-bottom: 0;
+      a {
+        @include underline();
+        padding: 0;
+        &:after {
+          content: "?";
+          padding: 0 0.65em;
+          margin-left: $horz-spacing-unit / 2;
+          background: $body-copy-color;
+          color: #fff;
+          @include border-radius(20px);
+          float: right;
+          display: block;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  .form-item {
+    clear: left;
+    margin-top: $vert-spacing-unit;
+    label {
+      padding-left: $horz-spacing-unit / 2;
+    }
+  }
+}

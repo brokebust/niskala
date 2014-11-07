@@ -1,0 +1,13 @@
+/**
+ * $PROGRESS
+ */
+.progress {
+  .bar {
+    background-color: $box-background-color;
+    border-color: $color-nevada;
+    @include border-radius(0);
+  }
+  .filled {
+    background: $link-color;
+  }
+}

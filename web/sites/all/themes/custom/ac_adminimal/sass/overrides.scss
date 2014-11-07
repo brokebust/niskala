@@ -1,0 +1,37 @@
+#admin-menu {
+  #admin-menu-wrapper {
+    // Ensure consistency between front and back end font rendering. This was
+    // an issue particularly in Safari where font weight was jumping around
+    // on hover.
+    -webkit-font-smoothing: subpixel-antialiased;
+    #environment-indicator {
+      .environment-indicator-name {
+        border-radius: 0;
+      }
+      .item-list,
+      .environment-switcher-container {
+        display: none !important;
+      }
+    }
+  }
+
+  #admin-menu,
+  #admin-menu-wrapper {
+    background-color: #202020 !important;
+  }
+}
+
+#navbar-administration {
+  .navbar-tray {
+    &.navbar-tray-vertical {
+      // Add a vertical line to the navbar whilst in vertical mode.
+      border-right: 1px solid #eee;
+      > .navbar-lining::before {
+        background-color: #fafafa;
+      }
+      .navbar-menu-item {
+        background-color: #fdfdfd;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+/**
+ * $PAGER
+ */
+.pager {
+  @include clearfix(true);
+}
+
+.pager__item {
+  display: block;
+  float: left;
+  margin: 0.1em;
+  padding: 0;
+}
+
+.pager__item a,
+.pager__item--current,
+.pager__item--ellipsis {
+  display: block;
+  padding: 0.5em 0.8em;
+  border: 1px solid $color-nevada;
+  color: $color-nevada;
+  @include nounderline();
+}
+.pager__item a:hover {
+  background-color: $accent-1;
+  border-color: $accent-1;
+  color: #fff;
+}
+.pager__item--current {
+  border-color: $accent-1;
+  color: $accent-1;
+}
+.pager__item--ellipsis {
+  border: none;
+}

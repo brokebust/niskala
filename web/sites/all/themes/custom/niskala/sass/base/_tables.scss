@@ -1,0 +1,36 @@
+/**
+ * $TABLES
+ */
+table {
+  width: 100%;
+  margin-bottom: $vert-spacing-unit;
+}
+
+th {
+  padding: 0.5em 1em;
+  background-color: $box-background-color;
+  color: $color-mine-shaft;
+
+  a,
+  a.active {
+    color: $color-mine-shaft;
+
+    img {
+      margin: 2px 3px;
+    }
+  }
+}
+td {
+  padding: 0.5em 1em;
+}
+
+tr.odd {
+  background: lighten($color-alto, 4%);
+}
+tr.even {
+  background: lighten($color-alto, 8%);
+}
+
+caption {
+  @extend .delta;
+}

@@ -1,0 +1,41 @@
+@mixin double_arrow($position, $color: $accent-1, $hover: $black, $margin: $horz-spacing-unit / 2, $line-height: 0.7em) {
+  @if $position == before {
+    &:before {
+      content: "››";
+      line-height: $line-height;
+      margin-right: $margin;
+      font-size: 1.75em;
+      font-family: $museo-bold;
+      color: $accent-2;
+      letter-spacing: -4px;
+      @include scaleX(1.2);
+      display: block;
+      float: left;
+      color: $color;
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+  @else {
+    &:hover {
+      &:after {
+        color: $black;
+      }
+    }
+    &:after {
+      content: "››";
+      line-height: $line-height;
+      margin-left: $margin;
+      font-size: 1.75em;
+      font-family: $museo-bold;
+      color: $accent-2;
+      letter-spacing: -4px;
+      @include scaleX(1.2);
+      display: block;
+      float: right;
+      color: $color;
+    }
+  }
+
+}

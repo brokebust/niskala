@@ -1,0 +1,10 @@
+/**
+ * $EXPOSED FORM
+ */
+
+.views-exposed-form {
+  // The submit and reset button when adjacent should have space.
+  .views-submit-button + .views-reset-button {
+    margin-left: 1em;
+  }
+}
