@@ -1627,3 +1627,12 @@ ul.tabs.tabs--primary {
 .view-image-gallery .views-row {
   float: left;
   padding: 0 20px 20px 0; }
+
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\00003150}}
+  .has-one-sidebar .l-main .l-content {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/vagrant\/agileparrot\/sites\/l\.niskala\/gitroot\/web\/sites\/all\/themes\/custom\/niskala\/sass\/theme\/_main_theme\.scss}line{font-family:\00003154}}
+  .has-one-sidebar .l-main .l-region--sidebar-second {
+    width: 50%; } }
