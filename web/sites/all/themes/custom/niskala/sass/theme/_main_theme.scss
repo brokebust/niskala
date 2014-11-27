@@ -4,6 +4,19 @@ body{
   color:#FFF;
 }
 
+h1 a,
+h2 a,
+h3 a{
+  
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover{
+  color:red;
+  text-decoration:none;  
+}
+
+
 p a,
 span a,
 a{
@@ -15,6 +28,7 @@ p a:visited,
 span a:visited{
   color:#C00;
 }
+
 p a:hover,
 span a:hover,
 a:hover{
@@ -67,7 +81,7 @@ body {
 }
 
 body .l-main {
-  padding:30px;
+  padding:0 30px 30px 30px;
   background:#222;
   margin-top:0;
   margin-bottom:0;
@@ -87,9 +101,41 @@ body .l-footer-wrapper {
 }
 
 body .l-region--sidebar-second {
-background:#222;
+  background:#222;
 }
 
 .section-bio .l-content .block__title{
   display:none;
+}
+
+ul.tabs.tabs--primary {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.view-niskala-store .views-row{
+  float:left;
+  width:300px;
+}
+
+.view-niskala-store h2{
+  margin:0;
+  padding:0;
+}
+ 
+.breadcrumb{
+  margin:0;
+  padding:10px;
+}
+
+.node-type-product-display .group-right{
+  padding-left:30px;
+}
+
+.node-type-product-display #edit-submit{
+  margin-top:20px;
+}
+
+.node-type-product-display .form-item-quantity{
+  width:40px;
 }
